@@ -1,0 +1,22 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+img {
+    height: 8rem ;
+/* porpediedad para ajustar la imagen y que no pierdad la calidad */
+    object-fit: cover;
+}
+
+@media (min-width: 800px) {
+.card{
+    width: 9rem;
+}
+}
+
+@media (max-width: 750px){
+
+}

@@ -2,16 +2,15 @@
 
 #title{
     text-align: center;
-    color: rgb(71, 33, 10);
+    color: #061623;
     font-family: 'Lora';
     font-display: swap;
     font-size: 4rem;
 }
 
-.btn-action {
-    background-color: rgb(207, 203, 203);
-
-}
+.btn-action { 
+    background-color: #b8bbbe
+} 
 
 #carouselExampleCaptions{
     margin: auto;
@@ -21,6 +20,7 @@
 
 .titulo-carrusel{
     font-size: 400%;
+    
 }
 
 .descrip-carrusel{
