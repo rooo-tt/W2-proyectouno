@@ -7,16 +7,18 @@
 
 img {
     height: 8rem ;
-/* porpediedad para ajustar la imagen y que no pierdad la calidad */
+/* propiedad para ajustar la imagen y que no pierdad la calidad */
     object-fit: cover;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 751px) {
 .card{
-    width: 16rem;
+    width: 100%;
 }
 }
 
 @media (max-width: 750px){
-
+.card{
+    width: 100%;
 }
+} 
