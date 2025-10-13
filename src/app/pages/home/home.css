@@ -1,24 +1,48 @@
-.btn-action { 
+.btn-action {
     background-color: #b8bbbe
-} 
+}
 
-.container{
+#carouselExampleCaptions {
+    
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 75%;
+}
+
+.titulo-carrusel {
+    font-size: 400%;
+
+}
+
+.descrip-carrusel {
+    font-size: x-large;
+}
+
+.container {
     margin: auto;
     justify-content: center;
 }
 
-.row{
+.row {
+    margin: auto;
     justify-content: center;
+    justify-content: space-between;
+}
+
+#cardimg{
+    height: 8rem;
+    object-fit: cover;
 }
 
 @media (min-width: 751px) {
-.card{
-    width: 100%;
-}
+    .card {
+        width: 100%;
+    }
 }
 
-@media (max-width: 750px){
-.card{
-    width: 100%;
+@media (max-width: 750px) {
+    .card {
+        width: 100%;
+    }
 }
-} 

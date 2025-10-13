@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Licorice&display=swap');
+
 @media (min-width: 751px) {
-.card{
-    width: 100%;
-}
+    .card {
+        width: 100%;
+    }
 }
 
-@media (max-width: 750px){
-.card{
-    width: 100%;
+@media (max-width: 750px) {
+    .card {
+        width: 100%;
+    }
 }
-} 
+
+#btncontacto:hover {
+    font-family: "Alkatra";
+    font-size: 130%;
+    border-color: black;
+    background-color:  rgb(48, 95, 111);
+}
+
+#btnproducts:hover {
+    font-family: "Alkatra";
+    font-size: 130%;
+    border-color: black;
+    background-color:  rgb(48, 95, 111);
+}
