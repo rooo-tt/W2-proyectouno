@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
 .navbar{
     background-color: rgb(48, 95, 111);
     color: aliceblue; 
     
+}
+
+#tituloNavbar{
+    font-family: 'Licorice';
+    font-display: swap;
+    font-size: 200%;
+}
+
+#carouselExampleCaptions{
+    margin: auto;
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+.titulo-carrusel{
+    font-size: 400%;
+    
+}
+
+.descrip-carrusel{
+    font-size: x-large;
 }

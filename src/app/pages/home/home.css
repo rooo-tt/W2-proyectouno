@@ -1,31 +1,6 @@
- @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Story+Script&display=swap');
-
-#title{
-    text-align: center;
-    color: rgb(48, 95, 111);
-    font-family: 'Lora';
-    font-display: swap;
-    font-size: 4rem;
-}
-
 .btn-action { 
     background-color: #b8bbbe
 } 
-
-#carouselExampleCaptions{
-    margin: auto;
-    margin-bottom: 10%;
-    width: 75%;
-}
-
-.titulo-carrusel{
-    font-size: 400%;
-    
-}
-
-.descrip-carrusel{
-    font-size: x-large;
-}
 
 .container{
     margin: auto;
@@ -34,5 +9,16 @@
 
 .row{
     justify-content: center;
-    
 }
+
+@media (min-width: 751px) {
+.card{
+    width: 100%;
+}
+}
+
+@media (max-width: 750px){
+.card{
+    width: 100%;
+}
+} 
